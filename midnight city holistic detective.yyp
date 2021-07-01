@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"string_wrap","path":"scripts/string_wrap/string_wrap.yy",},"order":0,},
     {"id":{"name":"obj_dialog","path":"objects/obj_dialog/obj_dialog.yy",},"order":0,},
+    {"id":{"name":"brazilian_subtitles","path":"scripts/brazilian_subtitles/brazilian_subtitles.yy",},"order":1,},
     {"id":{"name":"fnt_dialog","path":"fonts/fnt_dialog/fnt_dialog.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],

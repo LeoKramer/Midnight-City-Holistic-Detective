@@ -12,15 +12,14 @@ switch(room_get_name(room))
 		break;
 }
 
-show_debug_message(currentChapter);
 text = brazilian_subtitles(currentChapter);
 
 text_current = 0;
 text_last = array_length(text) -1;
 
-text_width = 900;
-text_x = 60;
-text_y = 570;
+text_width = 800;
+text_x = 30;
+text_y = obj_upperLine.sprite_height + 30;
 
 char_current = 1;
 char_speed = 0.25;

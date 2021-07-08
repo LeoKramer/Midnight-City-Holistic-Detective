@@ -4,7 +4,7 @@
     {"id":{"name":"obj_buttonBag","path":"objects/obj_buttonBag/obj_buttonBag.yy",},"order":1,},
     {"id":{"name":"string_wrap","path":"scripts/string_wrap/string_wrap.yy",},"order":0,},
     {"id":{"name":"obj_statusText","path":"objects/obj_statusText/obj_statusText.yy",},"order":8,},
-    {"id":{"name":"obj_statForText","path":"objects/obj_statForText/obj_statForText.yy",},"order":0,},
+    {"id":{"name":"obj_statsTexts","path":"objects/obj_statsTexts/obj_statsTexts.yy",},"order":10,},
     {"id":{"name":"spr_detectiveImage","path":"sprites/spr_detectiveImage/spr_detectiveImage.yy",},"order":3,},
     {"id":{"name":"spr_buttonStats","path":"sprites/spr_buttonStats/spr_buttonStats.yy",},"order":0,},
     {"id":{"name":"obj_dialog","path":"objects/obj_dialog/obj_dialog.yy",},"order":0,},
@@ -55,7 +55,6 @@
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/GUI objects.yy","order":1,"resourceVersion":"1.0","name":"GUI objects","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Objects/GUI objects/Stats.yy","order":10,"resourceVersion":"1.0","name":"Stats","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

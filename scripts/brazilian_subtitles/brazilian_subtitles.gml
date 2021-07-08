@@ -24,6 +24,7 @@ function chapter1()
 	subs[1] = "Lá estava eu sentado com os pés em cima da mesa esperando o bendito telefone tocar";
 	subs[2] = "Na minha pequena sala só o rádio e uma caixa de pizza velha me faziam companhia";
 	subs[3] = "Mas eu não precisava me preocupar, daqui a pouco alguma esquisitice iria acontecer pra eu poder trabalhar...";
+	subs[4] = "#choice1";
 	
 	return subs;
 }

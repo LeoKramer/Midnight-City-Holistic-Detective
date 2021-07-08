@@ -23,11 +23,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Stats",
-    "path": "folders/Objects/GUI objects/Stats.yy",
+    "name": "GUI objects",
+    "path": "folders/Objects/GUI objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_statForText",
+  "name": "obj_statsTexts",
   "tags": [],
   "resourceType": "GMObject",
 }

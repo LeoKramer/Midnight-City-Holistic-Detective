@@ -13,4 +13,11 @@ if (char_current < _len)
 }
 
 var _str = string_copy(text[text_current], 1, char_current);
-draw_text(text_x, text_y,  _str);
+
+if(string_char_at(_str, 0) == "#") 
+{
+	show_debug_message(_str);
+	text[text_current] = string_wrap("Esta será uma escolha", text_width);
+    char_current = 0;
+}
+else draw_text(text_x, text_y,  _str);

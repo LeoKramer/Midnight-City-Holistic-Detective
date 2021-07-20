@@ -23,11 +23,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "GUI objects",
-    "path": "folders/Objects/GUI objects.yy",
+    "name": "CharismaStat",
+    "path": "folders/Objects/GUI objects/CharismaStat.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_statusText",
+  "name": "obj_charismaText",
   "tags": [],
   "resourceType": "GMObject",
 }

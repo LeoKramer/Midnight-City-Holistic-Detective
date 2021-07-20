@@ -23,11 +23,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "GUI objects",
-    "path": "folders/Objects/GUI objects.yy",
+    "name": "ConstitutionStat",
+    "path": "folders/Objects/GUI objects/ConstitutionStat.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_statusText",
+  "name": "obj_constitutionText",
   "tags": [],
   "resourceType": "GMObject",
 }

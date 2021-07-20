@@ -23,11 +23,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "GUI objects",
-    "path": "folders/Objects/GUI objects.yy",
+    "name": "DexterityStat",
+    "path": "folders/Objects/GUI objects/DexterityStat.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_statsTexts",
+  "name": "obj_dexterityText",
   "tags": [],
   "resourceType": "GMObject",
 }

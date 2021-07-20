@@ -6,18 +6,18 @@ draw_set_valign(fa_top);
 var fontColor = make_color_rgb(90,110,88);
 draw_set_colour(fontColor);
 
-var _len = string_length(text[text_current]);
+var _len = string_length(text[0][text_current]);
 if (char_current < _len)
 {
     char_current += char_speed;
 }
 
-var _str = string_copy(text[text_current], 1, char_current);
+var _str = string_copy(text[0][text_current], 1, char_current);
 
-if(string_char_at(_str, 0) == "#") 
+if(text[1][text_current] == "#ability") 
 {
-	show_debug_message(_str);
-	text[text_current] = string_wrap("Esta será uma escolha", text_width);
-    char_current = 0;
+	global.state = "choosing";
+	global.availableAbilities = text[2][text_current];
 }
-else draw_text(text_x, text_y,  _str);
+
+draw_text(text_x, text_y,  _str);

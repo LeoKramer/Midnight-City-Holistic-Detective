@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_buttonStats",
+    "path": "sprites/spr_buttonStats/spr_buttonStats.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -18,16 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "GUI objects",
-    "path": "folders/Objects/GUI objects.yy",
+    "name": "InteligenceStat",
+    "path": "folders/Objects/GUI objects/InteligenceStat.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_statusText",
+  "name": "obj_inteligenceButton",
   "tags": [],
   "resourceType": "GMObject",
 }

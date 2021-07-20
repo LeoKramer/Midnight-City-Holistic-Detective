@@ -23,11 +23,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "GUI objects",
-    "path": "folders/Objects/GUI objects.yy",
+    "name": "ForceStat",
+    "path": "folders/Objects/GUI objects/ForceStat.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_statusText",
+  "name": "obj_forceText",
   "tags": [],
   "resourceType": "GMObject",
 }

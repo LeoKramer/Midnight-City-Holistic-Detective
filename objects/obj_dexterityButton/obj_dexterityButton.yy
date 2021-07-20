@@ -4,7 +4,7 @@
     "path": "sprites/spr_buttonStats/spr_buttonStats.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -26,11 +26,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "GUI objects",
-    "path": "folders/Objects/GUI objects.yy",
+    "name": "DexterityStat",
+    "path": "folders/Objects/GUI objects/DexterityStat.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_buttonStats",
+  "name": "obj_dexterityButton",
   "tags": [],
   "resourceType": "GMObject",
 }

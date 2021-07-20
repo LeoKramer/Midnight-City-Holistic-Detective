@@ -23,11 +23,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "GUI objects",
-    "path": "folders/Objects/GUI objects.yy",
+    "name": "WisdomStat",
+    "path": "folders/Objects/GUI objects/WisdomStat.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_statusText",
+  "name": "obj_wisdomText",
   "tags": [],
   "resourceType": "GMObject",
 }

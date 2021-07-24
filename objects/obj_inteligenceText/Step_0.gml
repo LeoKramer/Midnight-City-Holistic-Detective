@@ -7,8 +7,17 @@ if(global.state == "ability")
 	for(var i = 0; i < global.availableAbilities[0]; i++)
 	{
 		var ability = global.availableAbilities[offset];
-		if(ability == "inteligence" || ability == "knowledge")
+		if(ability == "perception")
+		{
 			visible = true;
+			perceptionAvailable = true;
+		}
+		if(ability == "knowledge")
+		{
+			visible = true;
+			knowledgeAvailable = true;
+		}
+			
 		offset +=4;
 	}
 	obj_inteligenceButton.visible = visible;
@@ -20,4 +29,7 @@ else
 	visible = true;
 	obj_inteligenceButton.visible = visible;
 	obj_inteligenceClickArea.clickable = false;
+	
+	perceptionAvailable = false;
+	knowledgeAvailable = false;
 }

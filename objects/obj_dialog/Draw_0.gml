@@ -16,7 +16,7 @@ var _str = string_copy(text[0][text_current], 1, char_current);
 
 if(text[1][text_current] == "#ability") 
 {
-	global.state = "ability";
+	if(global.nextDialog == -1) global.state = "ability";
 	global.availableAbilities = text[2][text_current];
 }
 

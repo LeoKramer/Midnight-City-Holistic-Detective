@@ -57,5 +57,7 @@ function chapter1()
 	subs[0][31] = "Você não consegue se lembrar de nenhuma informação relevante...";
 	subs[0][32] = "A porta se abre sem cerimônia. Uma mulher alta e esguia me olhou fixamente. Ficamos alguns segundos nos encarando e um arrepio me passou pela espinha";
 	
+	subs[1][32] = "#end";
+	
 	return subs;
 }

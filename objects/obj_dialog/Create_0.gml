@@ -2,6 +2,7 @@
 // You can write your code in this editor
 global.state = "storytelling";
 global.availableAbilities = [];
+global.nextDialog = -1;
 
 var currentChapter = "";
 
@@ -17,7 +18,7 @@ switch(room_get_name(room))
 
 text = brazilian_subtitles(currentChapter);
 
-text_current = 0;
+text_current = 26;
 text_last = array_length(text[0]) -1;
 
 text_width = 800;

@@ -36,7 +36,9 @@
     {"id":{"name":"fnt_dialog","path":"fonts/fnt_dialog/fnt_dialog.yy",},"order":0,},
     {"id":{"name":"obj_buttonAction","path":"objects/obj_buttonAction/obj_buttonAction.yy",},"order":0,},
     {"id":{"name":"spr_buttonAction","path":"sprites/spr_buttonAction/spr_buttonAction.yy",},"order":6,},
+    {"id":{"name":"obj_perceptionText","path":"objects/obj_perceptionText/obj_perceptionText.yy",},"order":4,},
     {"id":{"name":"obj_downLine","path":"objects/obj_downLine/obj_downLine.yy",},"order":4,},
+    {"id":{"name":"obj_perceptionTest","path":"objects/obj_perceptionTest/obj_perceptionTest.yy",},"order":3,},
     {"id":{"name":"spr_upperLine","path":"sprites/spr_upperLine/spr_upperLine.yy",},"order":5,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
@@ -87,7 +89,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.3.570",
+    "IDEVersion": "2.3.3.574",
   },
   "resourceVersion": "1.4",
   "name": "midnight city holistic detective",

@@ -7,6 +7,6 @@ var fontColor = make_color_rgb(21,24,21);
 draw_set_colour(fontColor);
 
 var text_x = room_width/2;
-var text_y = room_height/2;
+var text_y = room_height/2 + spr_buttonAction.sprite_height + 80;
 
-draw_text(text_x, text_y, "Percepção");
+draw_text(text_x, text_y, "Conhecimento");

@@ -52,12 +52,16 @@ function chapter1()
 	subs[1][27] = "#ability";
 	subs[2][27] = [2,"perception", 12, 28, 29, "knowledge", 12, 30, 31];
 	subs[0][28] = "Os passos do outro lado da porta cessaram por um breve momento e foi possível ouvir um som gutural, como se alguém estivesse engolindo algo de uma forma grosseira";
+	subs[1][28] = 32;
 	subs[0][29] = "Você não consegue perceber nada fora do comum...";
+	subs[1][29] = 32;
 	subs[0][30] = "Me recordo que essa é a casa do Doutor Ernesto Cantalto, um empresário famoso da cidade - que não entendo bem porque chamam de doutor. Será que ele também está em casa?";
+	subs[1][30] = 32;
 	subs[0][31] = "Você não consegue se lembrar de nenhuma informação relevante...";
+	subs[1][31] = 32;
 	subs[0][32] = "A porta se abre sem cerimônia. Uma mulher alta e esguia me olhou fixamente. Ficamos alguns segundos nos encarando e um arrepio me passou pela espinha";
 	
-	subs[1][32] = "#end";
+	subs[1][32] = 33;
 	
 	return subs;
 }

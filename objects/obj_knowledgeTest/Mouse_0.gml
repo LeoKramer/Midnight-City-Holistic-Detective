@@ -12,7 +12,7 @@ if(!selected)
 	for(var i = 0; i < global.availableAbilities[0]; i++)
 	{
 		var ability = global.availableAbilities[offset];
-		if(ability == "perception")
+		if(ability == "knowledge")
 		{
 			break;
 		}
@@ -22,7 +22,7 @@ if(!selected)
 	
 	testDificult = global.availableAbilities[offset+1];
 	
-	stringResult = "Você tirou " + testResult + " no teste de Percepção\n";
+	stringResult = "Você tirou " + testResult + " no teste de Conhecimento\n";
 	stringResult += "A dificuldade era " + string(testDificult) + "\n";
 	
 	nextDialog = 0;
@@ -41,11 +41,11 @@ if(!selected)
 		global.nextDialog = global.availableAbilities[offset+3];
 	}
 	
-	for(var i = 0; i < array_length(obj_chapter1Controller.perceptionTestsPositions); i++)
+	for(var i = 0; i < array_length(obj_chapter1Controller.knowledgeTestsPositions); i++)
 	{
-		if(obj_dialog.text_current == obj_chapter1Controller.perceptionTestsPositions[i])
+		if(obj_dialog.text_current == obj_chapter1Controller.knowledgeTestsPositions[i])
 		{
-			obj_chapter1Controller.perceptionTestsResults[i] = passed;
+			obj_chapter1Controller.knowledgeTestsResults[i] = passed;
 			break;
 		}
 	}

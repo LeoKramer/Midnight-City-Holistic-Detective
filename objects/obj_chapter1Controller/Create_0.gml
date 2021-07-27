@@ -6,3 +6,8 @@ perceptionTestsPositions = [27];
 perceptionTestsResults = [0];
 knowledgeTestsPositions = [27];
 knowledgeTestsResults = [0];
+
+firstAidTestsPositions = [-1];
+firstAidTestsResults = [0];
+sanityTestsPositions = [33];
+sanityTestsResults = [0];

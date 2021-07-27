@@ -7,8 +7,17 @@ if(global.state == "ability")
 	for(var i = 0; i < global.availableAbilities[0]; i++)
 	{
 		var ability = global.availableAbilities[offset];
-		if(ability == "firstAid" || ability == "sanity")
+		if(ability == "firstAid")
+		{
 			visible = true;
+			firstAidAvailable = true;
+		}
+		if(ability == "sanity")
+		{
+			visible = true;
+			sanityAvailable = true;
+		}
+			
 		offset +=4;
 	}
 	obj_wisdomButton.visible = visible;
@@ -20,4 +29,7 @@ else
 	visible = true;
 	obj_wisdomButton.visible = visible;
 	obj_wisdomClickArea.clickable = false;
+	
+	firstAidAvailable = false;
+	sanityAvailable = false;
 }

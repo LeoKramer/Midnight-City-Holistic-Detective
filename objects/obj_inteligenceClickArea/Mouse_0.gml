@@ -24,4 +24,3 @@ if(clickable)
 		knowledgeText = instance_create_layer(offset_x, offset_y,"Modal",obj_knowledgeText);
 	}
 }
-

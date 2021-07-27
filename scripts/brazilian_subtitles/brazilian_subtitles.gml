@@ -59,9 +59,19 @@ function chapter1()
 	subs[1][30] = 32;
 	subs[0][31] = "Você não consegue se lembrar de nenhuma informação relevante...";
 	subs[1][31] = 32;
+	
 	subs[0][32] = "A porta se abre sem cerimônia. Uma mulher alta e esguia me olhou fixamente. Ficamos alguns segundos nos encarando e um arrepio me passou pela espinha";
 	
-	subs[1][32] = 33;
+	subs[0][33] = "Faça um check de Sanidade";
+	subs[1][33] = "#ability";
+	subs[2][33] = [1, "sanity", 12, 34, 35];
+	subs[0][34] = "Eu provavelmente só estava com frio por conta da chuva, não devia ser nada";
+	subs[1][34] = 36;
+	subs[0][35] = "Tinha algo muito errado com essa senhora. Será que a história do filho foi uma armadilha? Melhor eu ficar de olho aberto";
+	subs[1][35] = 36;
+	
+	subs[0][36] = "Por favor, entre! O quarto do meu filho fica no andar de cima, você precisa vê-lo logo";
+	subs[1][36] = 37;
 	
 	return subs;
 }
